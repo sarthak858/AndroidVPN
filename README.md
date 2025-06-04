@@ -1,4 +1,4 @@
-Simple-VPN
+AndroidVPN
 ==========
 
 This is a demo implementation of a simple VPN to send data from one computer to another over a protected channel. The channel establishes a shared secret key using the Diffie Hellman key exchange. This shared secret key is then used to encrypt all further communication, thus resulting in a secure VPN connection, and the public network it uses becomes a protected channel. 
