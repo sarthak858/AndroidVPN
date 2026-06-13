@@ -35,8 +35,8 @@ import com.EECE412A3.Helpers;
 public class Client implements ClientInterface {
 	
 	//Encryption Constants
-	private static final byte[] SALT = {(byte) 0xa0, (byte) 0x4e, (byte) 0x2b, (byte) 0x92, (byte) 0x4a, (byte) 0xd6, (byte) 0x59, (byte) 0x86};
-	private static final int ITERATION_COUNT = 25;
+	private static final byte[] SALT = {(byte) 0xa0, (byte) 0x4e, (byte) 0x2b, (byte) 0x92, (byte) 0x5a, (byte) 0xd6, (byte) 0x59, (byte) 0x86};
+	private static final int ITERATION_COUNT = 35;
 	
 	private static PBEParameterSpec pbeParamSpec;
 	
